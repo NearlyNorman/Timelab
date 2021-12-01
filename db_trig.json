@@ -1,0 +1,41 @@
+{
+  "listTrig": [
+    {
+      "name": "test_1",
+      "target": { "type": "audio",
+                  "dest": "url",
+                  "src":  "https:// nearlynorman.github.io/timelab/test.mp3"},
+      "action": {"type": "spawn",
+                 "pos": {"x": 0, "y":0, "z":-7Z},
+                 "rot": {"x": 0, "y":0, "z":0},
+                 "scale": {"x": 0.01, "y":0.01, "z":0.01},
+                 "volume":0.9,
+                 "distanceModel": "linear",
+                 "rolloffFactor":1,
+                 "refDistance":5,
+                 "maxDistance":10},
+      "trig": {"type": "proximity_spherical",
+               "radius": 2,
+               "time": 0
+              }
+    },
+    {
+      "name": "test_2",
+      "target": { "type": "audio",
+                  "dest": "url",
+                  "src":  "https://romamile.github.io/sp_repo/w1a1-a01.mp3"},
+      "action": {"type": "spawn",
+                 "pos": {"x": -36, "y":1.2, "z":-7.5},
+                 "rot": {"x": 0, "y":0, "z":0},
+                 "scale": {"x": 0.01, "y":0.01, "z":0.01},
+                 "volume":0.9,
+                 "distanceModel": "linear",
+                 "rolloffFactor":1,
+                 "refDistance":5,
+                 "maxDistance":10},
+      "trig": {"type": "proximity_spherical",
+               "radius": 2,
+               "time": 0
+              }
+    },
+    },
